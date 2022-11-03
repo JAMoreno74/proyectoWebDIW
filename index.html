@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +8,27 @@
     <title>Cafés JERCAM</title>
 </head>
 <body>
-  <header class="header">
+  <div class="header">
     <div class="logo">
       <img src="img/logo1.svg" alt="Logo de café JERCAM">
     </div>
-    <nav class="menu">
+    <div class="menu">
       <ul>
         <li><a href="#">Caf&eacute;s</a></li>
         <li><a href="#">Blog</a></li>
-        <li><a href="#">Nosotros</a></li>
+        <li><a href="nosotros/nosotros.html">Nosotros</a></li>
         <li><a href="#">Log in</a></li>
         <li><a href="#"><img src="img/bx-cart 1.png" alt=""></a></li>
         </ul>
-      </nav>
-  </header>
+      </div>
+  </div>
   
   <div class="intro">
     <div class="intro-texto">
       <h4>Cafés JERCAM</h4>
       <h1>DISFRUTA DEL MEJOR CAFÉ<img src="img/bxs-coffee-bean 1.svg" alt="grano de café"></h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Dolorum maiores ex eligendi perspiciatis accusantium suscipit, 
-        repellendus, sint alias rem cum velit neque, voluptas quam? 
-        Explicabo quia sit modi cupiditate. Earum.</p>
+      <p>Seleccionamos las calidades de cafés de diferentes orígenes para ajustarnos a una 
+        taza de auténtico disfrute, garantizando la calidad de nuestros productos.</p>
         <div class="opciones">
           <a href="#" class="btnElige">Elige el tuyo</a>
           <a href="#" class="btnReserva">Reservas</a>
@@ -41,30 +39,35 @@
     </div>
   </div>
   
-  <div class="intro-2">
-    <div class="intro-2-datos">
-      <p>50 <span class="intro-2-plus">+</span><span class="intro-2-span">Marcas de café</span></p> 
-      <p>25 <span class="intro-2-plus">+</span><span class="intro-2-span">Profesionales</span></p>
-      <p>15 <span class="intro-2-plus">+</span><span class="intro-2-span">Locales</span></p> 
-    </div>
-    
-    <div class="intro-2-contenido">
-      <div class="intro-2-img">
-          <img class="imagen-paleta" src="img/paletasCafe.jpg" alt="paletas de café">
-      </div>
-      
-      <div class="intro-2-texto">
-          <h2>Elige tu café favorito</h2>
-          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Dolorum maiores ex eligendi perspiciatis accusantium suscipit, 
-          epellendus, sint alias rem cum velit neque, voluptas quam? 
-          Explicabo quia sit modi cupiditate. Earum. Lorem ipsum,
-          dolor sit amet consectetur adipisicing elit. Dicta delectus blanditiis
-          aperiam reiciendis.</p>
-      </div>  
-    </div>
-  </div>
+<!--SECCION 2-->
 
+<div class="intro2">
+              <p class="intro2-local intro2-local-marcas">50 <span class="intro2-plus">+</span><span class="intro2-span">Marcas de café</span></p> 
+              <p class="intro2-local intro2-local-profesionales">25 <span class="intro2-plus">+</span><span class="intro2-span">Profesionales</span></p>
+              <p class="intro2-local intro2-local-locales">15 <span class="intro2-plus">+</span><span class="intro2-span">Locales</span></p> 
+      </div>
+
+<!--SECCION 3-->
+
+<div class="intro3">
+  <div class="intro3-img">
+      <img class="intro3-img-paleta" src="img/paletasCafe.jpg" alt="paletas de café">
+  </div>
+  
+  <div class="intro3-contenido">
+      <h2>Elige tu café favorito</h2>
+      <p class="intro3-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Dolorum maiores ex eligendi perspiciatis accusantium suscipit, 
+      epellendus, sint alias rem cum velit neque, voluptas quam? 
+      Explicabo quia sit modi cupiditate. Earum. Lorem ipsum,
+      dolor sit amet consectetur adipisicing elit. Dicta delectus blanditiis
+      aperiam reiciendis.</p>
+  </div>  
+</div>
+
+
+
+<!--seccion 4-->
   <section class="tipos-cafe">
         <h3>Caf&eacute;s</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -73,8 +76,8 @@
           <div class="tarjeta">
             <img src="img/expresso.jpg" alt="Una taza con café expresso"/>
             <h4>Espresso</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ullam.</p>
-            <a href="https://es.wikipedia.org/wiki/Caf%C3%A9_expreso" class="btn">Seleccionar</a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, neque!</p>
+            <a href="Espresso/Espresso.html" class="btn">Seleccionar</a>
           </div>
           <div class="tarjeta">
             <img src="img/ristretto.jpg" alt="Una taza con café ristretto"/>
@@ -109,7 +112,7 @@
         </div>
       </section>
 
-  <article class="blog">
+  <section class="blog">
     <h3>Nuestro blog</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
       
@@ -147,9 +150,9 @@
       </div>
 
       <a href="#" class="btn">¡Leer m&aacute;s!</a>
-  </article>
+  </section>
 
-  <footer class="footer">
+  <section class="footer">
         
         <div class="marca">
     
@@ -178,31 +181,35 @@
        
 
         <div class="rrss">
-         <!--He quitado el import de bootsrap y puesto como imagenes sencillas-->
+         
         <ul>
           <div></div>
           <li>
               <a href="#">
-                  <span class="facebook"><img src="img/bxl-facebook-square.svg" alt=""></span>
+                  <span class="fa fa-facebook"></span>
               </a>
           </li>
           <li>
               <a href="#">
-                  <span class="twitter"><img src="img/bxl-twitter.svg" alt=""></span>
+                  <span class="fa fa-twitter"></span>
               </a>
           </li>
           <li>
               <a href="#">
-                  <span class="instagram"><img src="img/bxl-instagram.svg" alt=""></span>
+                  <span class="fa fa-instagram"></span>
               </a>
           </li>
-        
+          <li>
+              <a href="#">
+                  <span class="fa fa-linkedin"></span>
+              </a>
+          </li>
           <div></div>
       </ul>
     </div><!--fin redes sociales-->
 
-  </footer><!--fin footer-->
+  </section><!--fin footer-->
 
-  
+  <!--Pregunta al profesor ¿Diferencia entre declararlo un div, un section o un footer?-->
 </body>
 </html>
